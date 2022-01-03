@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  padding:24px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text_center{
+  text-align:center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.weekly_bar{
+  border: 1px solid #E4E9F2;
+  border-radius: 8px;
+  background:#fff;
+  padding:24px 24px 0 24px;
 }
-
-.App-link {
-  color: #61dafb;
+.apexcharts-menu-icon{
+  display:none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weekly_bar_top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.weekly_top_txt p{
+  color:#192038;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom:8px;
+}
+.weekly_top_txt span{
+  font-size: 14px;
+  line-height: 20px;
+  color: #8F9BB3;
+}
+.weekly_bar_top{
+  margin-bottom:24px;
+}
+.weekly_selectbox select{
+  padding-left: 16px;
+  padding-right: 44px;
+  color:#2E3A59;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  height:48px;
+}
+.weekly_selectbox{
+  position:relative;
+}
+.weekly_icon{
+  position:absolute;
+  top:13px;
+  right:16px;
+}
+.weekly_selectbox select{
+  border:0;
+  cursor: pointer;
+}
+.weekly_selectbox select{
+  -webkit-appearance: none;
+   -moz-appearance:   none;
+   appearance:        none;
+}
+.weekly_selectbox select:focus{
+  outline:none;
 }
